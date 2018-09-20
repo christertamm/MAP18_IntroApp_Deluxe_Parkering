@@ -1,30 +1,9 @@
-.header {background-color:beige; width:100%; height: 10vh}
-
-.leftcol {background-color:beige; height:80vh; width:20%; float:left;}
-
-.content {background-color:beige; height:80vh; width:60%; float:left;}
-
-.rightcol {background-color:beige; height:80vh; width:20%; float:right;}
-
-.footer {background-color:beige; clear:both; text-align: center; height:10vh}
-
-.innerbox {padding: 10px;}
-
-.headingfont {font-family: 'Playfair Display', serif; font-size: 40px;}
-
-.contentheaderfont {font-family: 'Open Sans', sans-serif;text-align: center;}
-
-.contentfont {font-family: 'Inconsolata', monospace;}
-
-table {padding: 5px; border: 4px dotted black;}
-td {padding: 5px; border: 1px solid red;}
-
 body {
-	color: darkblue;
-	background-color: beige;
+	background-color: lightblue;
 }
 
 h1 {
+	color: beige; 
 	margin-left: 20px; 
 	font-size: 40px; 
 	text-align: center;
@@ -32,35 +11,44 @@ h1 {
 } 
 
 h2 {
+	color: beige; 
 	margin-left: 20px; 
 	font-size: 30px; 
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 } 
 
+.header {
+	background-colour: red;
+	height: 10vh;
+	width: 100%
+}
+
+.leftcol {background-colour: lightblue; height: 80vh; float: left; width: 20%}
+.content {background-colour: lightgrey; height: 80vh; float: left; width: 60%}
+.rightcol {background-colour: lightblue; height: 80vh; float: right; width: 20%}
+.footer {{background-colour: red; height: 10vh; float: right; width: 100%}
+
 p {
+	color: RGB(127, 26, 26); 
 	margin-left: 40px; 
 	font-size: 20px; 
 	font-family: Georgia
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: beige;
+.rad1 {
+	background-colour: #53ff1a;
+	height: 50vh
 }
 
-li a {
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
-li a:hover {
-    background-color: #7f1a1a;
-    color: white;
-}  
+
+li {
+	color: RGB(127, 26, 26); 
+	margin-left: 40px; 
+	font-size: 20px; 
+	font-family: Georgia
+}
 
 a {
 	text-decoration: none; 
@@ -71,6 +59,7 @@ a {
 }
 
 .button {
+    background-color: darkblue;
     border: none;
     border-radius: 8px;
     color: white;
@@ -92,6 +81,8 @@ a {
 .kontakt {
      margin: 0 auto;
      width: 500px; 
+
+	background-color: beige;
     	border: none;
     	border-radius: 8px;
     	color: white;
@@ -101,11 +92,11 @@ a {
 }
 
 img {	
-	border-radius: 60px;
+	border-radius: 80px;
 	display: block;
     	margin-left: auto;
     	margin-right: auto;
-    	width: 60%;
+    	width: 50%;
     	height: auto;
     	padding: 50px;
 }
