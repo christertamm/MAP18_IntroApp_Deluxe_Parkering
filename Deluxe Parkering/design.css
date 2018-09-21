@@ -6,7 +6,7 @@
 
 .rightcol {background-color:beige; height:80vh; width:20%; float:right;}
 
-.footer {background-color:beige; clear:both; text-align: center; height:10vh}
+.footer {background-color:beige; clear:both; text-align: center; height:5vh}
 
 .innerbox {padding: 10px;}
 
@@ -80,11 +80,11 @@ a {
 
 
 img {	
-	border-radius: 60px;
+	border-radius: 50px;
 	display: block;
     	margin-left: auto;
     	margin-right: auto;
     	width: 65%;
     	height: auto;
-    	padding: 40px;
+    	padding: 30px;
 }
