@@ -12,7 +12,7 @@
 
 .headingfont {font-family: 'Playfair Display', serif; font-size: 40px;}
 
-.contentheaderfont {font-family: 'Open Sans', sans-serif;text-align: center;}
+.contentheaderfont {font-family: 'Open Sans', sans-serif;text-align: center; font-size:30px;}
 
 .contentfont {	margin-left: 40px; 
 	font-size: 16px; 
@@ -42,7 +42,13 @@ h2 {
 
 p {
 	margin-left: 40px; 
-	font-size: 20px; 
+	font-size: 16px; 
+	font-family: Georgia
+}
+
+ul {
+	margin-left: 30px; 
+	font-size: 16px; 
 	font-family: Georgia
 }
 
@@ -58,75 +64,27 @@ p {
     padding: 8px 16px;
     text-decoration: none;
 }
+
 .navigation a:hover {
     background-color: #7f1a1a;
     color: white;
 }
 
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-}
-
-li a {
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #7f1a1a;
-    color: white;
-} */
-
 a {
 	text-decoration: none; 
 	margin-left: 40px; 
-	font-size: 20px; 
+	font-size: 16px; 
 	font-family: Georgia;
-	text-align: center
+	text-align: left
 }
 
-/*.button {
-    border: none;
-    border-radius: 8px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    font-family: 'Roboto', sans-serif;
-}
-
-.button:hover {
-    background-color: RGB(139, 0, 0);
-    color: white;
-}*/
-
-.kontakt {
-     margin: 0 auto;
-     width: 500px; 
-    	border: none;
-    	border-radius: 8px;
-    	color: white;
-   	padding: 32px 32px;
-    	text-decoration: none;
-    	font-size: 16px;
-}
 
 img {	
 	border-radius: 60px;
 	display: block;
     	margin-left: auto;
     	margin-right: auto;
-    	width: 60%;
+    	width: 65%;
     	height: auto;
-    	padding: 50px;
+    	padding: 40px;
 }
-
-.nav {text-align:center}
